@@ -144,7 +144,6 @@ body {
 }
 
 .charts {
-    border: 2px solid purple;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;

@@ -142,3 +142,26 @@ body {
 .card-inner > .material-icons-outlined {
     font-size: 45px;
 }
+
+.charts {
+    border: 2px solid purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.charts-card {
+    background-color: #263043;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0,0,0, 0.2);
+}
+
+.chart-title {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}

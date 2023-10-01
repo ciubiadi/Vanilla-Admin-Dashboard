@@ -98,13 +98,11 @@ body {
 }
 
 .main-title{
-    border: 2px solid white;
     display:flex;
     justify-content: space-between;
 }
 
 .main-cards {
-    border: 2px solid purple;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -112,7 +110,6 @@ body {
 }
 
 .card {
-    border:2px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
